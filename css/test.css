@@ -1,0 +1,38 @@
+
+body{
+    background-color: #8a716a;
+}
+.bg-body{
+    background-color: #c2b8b2 !important;
+    border-radius: 25px;
+}
+h1 , h3{
+    color: #fff;
+}
+
+.subhead{
+    color: #fff;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(28, 47, 158);
+}
+
+a:active{
+    color: yellow;
+}
+
+.line{
+    height: 0.05rem;
+    background-color: #ccc;
+}
+@media screen and (min-width: 768px){
+    .table{
+        width: 100% !important;
+        /* margin: auto !important; */
+    }
+}
